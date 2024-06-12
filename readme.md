@@ -8,6 +8,10 @@ Monitor your Proxmox CPU temperatures and send them to InfluxDB for real-time me
 - Configurable measurement names for easy identification of multiple nodes 📊
 - Simple setup script to get you started quickly 🚀
 
+## Prerequisites 📋
+
+- An InfluxDB 2 instance running somewhere. You can use [this helper script](https://helper-scripts.com/scripts?id=InfluxDB) to set it up.
+
 ## Installation & Setup 🛠️
 
 Run the following one-liner command to set up everything:
@@ -27,10 +31,6 @@ The setup script will:
 ## Usage 📋
 
 The monitoring script will automatically read the configuration and send CPU temperature data to InfluxDB. You can view and analyze the data using your InfluxDB and Grafana setup.
-
-## License 📄
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributions 🤝
 
