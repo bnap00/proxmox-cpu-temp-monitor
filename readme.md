@@ -11,6 +11,12 @@ Monitor your Proxmox CPU temperatures and send them to InfluxDB for real-time me
 ## Prerequisites 📋
 
 - An InfluxDB 2 instance running somewhere. You can use [this helper script](https://helper-scripts.com/scripts?id=InfluxDB) to set it up.
+- Keep these details handy:
+  - **InfluxDB Bucket**: The bucket where your data will be stored.
+  - **InfluxDB Organization**: The organization name for your InfluxDB instance.
+  - **InfluxDB Token**: Your InfluxDB API token for authentication.
+  - **InfluxDB Host**: The URL of your InfluxDB instance (e.g., `http://localhost:8086`).
+  - **Measurement Name**: The name you want to use for the CPU temperature measurement.
 
 ## Installation & Setup 🛠️
 
